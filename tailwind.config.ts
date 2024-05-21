@@ -9,11 +9,23 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        about: "url('/profile.png')",
       },
+
       colors: {
+        green: {
+          50: "#E1FEED",
+          100: "#C3FDDC",
+          200: "#83FCB5",
+          300: "#47FA92",
+          400: "#0BF96E",
+          500: "#05BE53",
+          600: "#049A43",
+          700: "#037231",
+          800: "#024B20",
+          900: "#012811",
+          950: "#011409",
+        },
         gray: {
           100: "#f5f5f5",
           200: "#e5e5e5",
