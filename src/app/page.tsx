@@ -10,8 +10,8 @@ import {
 export default function Home() {
   return (
     <main className=" ">
-      <div className="grid grid-cols-8 grid-rows-5 h-screen p-8 gap-8">
-        <section className="border-2 border-red-500 col-span-3 row-span-2 rounded-lg">
+      <div className="grid grid-cols-8 grid-rows-5 h-screen p-8 gap-4">
+        <section className="border border-[#2e2e2e] bg-[#151719] col-span-3 row-span-2 rounded-lg">
           <AboutMy />
         </section>
         <section className="border-2 border-blue-500 col-start-4 col-end-9 row-span-3 rounded-lg">
