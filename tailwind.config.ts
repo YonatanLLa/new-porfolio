@@ -11,6 +11,10 @@ const config: Config = {
       backgroundImage: {
         about: "url('/profile.png')",
       },
+      maxWidth: {
+        "8xl": "90rem", // Example: 1440px
+        "9xl": "100rem", // Example: 1600px
+      },
 
       colors: {
         green: {
