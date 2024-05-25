@@ -12,10 +12,9 @@ const config: Config = {
         about: "url('/profile.png')",
       },
       maxWidth: {
-        "8xl": "90rem", // Example: 1440px
-        "9xl": "100rem", // Example: 1600px
+        "8xl": "90rem", // 1440px
+        "9xl": "100rem", // 1600px
       },
-
       colors: {
         green: {
           50: "#E1FEED",
@@ -59,6 +58,19 @@ const config: Config = {
         "azul-claro": "#003566",
         amarillo: "#ffc300",
         gris: "#e5e5e5",
+      },
+      animation: {
+        "background-shine": "background-shine 1s linear infinite",
+      },
+      keyframes: {
+        "background-shine": {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
+        },
       },
     },
   },

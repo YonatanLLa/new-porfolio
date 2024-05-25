@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
-  @apply bg-negro text-white;
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
