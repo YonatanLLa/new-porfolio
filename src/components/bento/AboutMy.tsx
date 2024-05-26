@@ -8,7 +8,10 @@ import {
   Telegram,
 } from "../svg/Icons";
 // border-[#7c7c7c]
-export const AboutMy = () => {
+export const AboutMy: React.FC = () => {
+  const whatsappURL = `https://wa.me/918199369`;
+  const telegramURL = `https://t.me/yonatanlla`;
+
   return (
     <div className="flex flex-col items-center justify-center p-4 gap-1 h-full">
       <section className="rounded-xl  flex justify-between w-full">
@@ -40,9 +43,13 @@ export const AboutMy = () => {
           <div className="flex items-center">
             <p className=" pr-2 text-green-300 font-medium">Curriculum</p>
             {/* <div className="bg-[#202225] "> */}
-            <div className="bg-color-card border border-color-border rounded-xl p-2">
-              <Download />
-            </div>
+            <a href="/yonatan.pdf" download={"yonatan.pdf"}>
+              <div className="relative">
+                <div className="bg-color-card border border-color-border hover:border-[#4c4f55] transition-all duration-500 hover:bg-color-border rounded-xl p-2">
+                  <Download color="#a2a1a1" />
+                </div>
+              </div>
+            </a>
           </div>
           {/* </div> */}
         </div>
@@ -72,16 +79,20 @@ export const AboutMy = () => {
           <p className="text-center text-[#bdbbbb]">WhatsApp</p>
         </div> */}
         <div className="w-full">
-          <button className="inline-flex w-full gap-2 py-4 hover:animate-background-shine items-center justify-center  border border-color-card  hover:border-[#4c4f55] bg-[#16171a] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400 hover:transition-colors ">
-            <WhatsApp color="#47FA92" />
-            <p className="text-center text-[#bdbbbb]">WhatsApp</p>
-          </button>{" "}
+          <a href={whatsappURL} target="_blank" rel="noopener noreferrer">
+            <div className="inline-flex w-full gap-2 py-4 hover:animate-background-shine items-center justify-center  border border-color-card  hover:border-[#4c4f55] bg-[#16171a] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400 transition-all duration-500 ">
+              <WhatsApp color="#47FA92" />
+              <p className="text-center text-[#bdbbbb]">WhatsApp</p>
+            </div>{" "}
+          </a>
         </div>
         <div className="w-full">
-          <button className="inline-flex w-full gap-2 py-4 hover:animate-background-shine items-center justify-center  border border-color-card hover:border-[#4c4f55] bg-[#16171a] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400 hover:transition-colors ">
-            <Telegram color="#47FA92" />
-            <p className="text-center text-[#bdbbbb]">Telegram</p>
-          </button>{" "}
+          <a href={telegramURL} target="_blank" rel="noopener noreferrer">
+            <div className="inline-flex w-full gap-2 py-4 hover:animate-background-shine items-center justify-center  border border-color-card hover:border-[#4c4f55] bg-[#16171a] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400  transition-all duration-500 ">
+              <Telegram color="#47FA92" />
+              <p className="text-center text-[#bdbbbb]">Telegram</p>
+            </div>{" "}
+          </a>
         </div>
       </section>
     </div>

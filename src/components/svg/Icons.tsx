@@ -4,20 +4,18 @@ export const Download = ({ color = "currentColor" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="28"
-      height="28"
+      width="24"
+      height="24"
       viewBox="0 0 24 24"
-      fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="icon icon-tabler icons-tabler-outline icon-tabler-download"
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
-      <path d="M7 11l5 5l5 -5" />
-      <path d="M12 4l0 12" />
+      <g fill="none" stroke={color} stroke-linecap="round" stroke-width="1.5">
+        <path d="M17 9.002c2.175.012 3.353.109 4.121.877C22 10.758 22 12.172 22 15v1c0 2.829 0 4.243-.879 5.122C20.243 22 18.828 22 16 22H8c-2.828 0-4.243 0-5.121-.878C2 20.242 2 18.829 2 16v-1c0-2.828 0-4.242.879-5.121c.768-.768 1.946-.865 4.121-.877" />
+        <path
+          id="arrow"
+          stroke-linejoin="round"
+          d="M12 2v13m0 0l-3-3.5m3 3.5l3-3.5"
+        />
+      </g>
     </svg>
   );
 };

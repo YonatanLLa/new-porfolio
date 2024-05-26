@@ -10,3 +10,12 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+#arrow {
+  transform: translateY(-30%);
+  transition: transform 0.3s ease;
+}
+
+.relative:hover #arrow {
+  transform: translateY(0);
+}
