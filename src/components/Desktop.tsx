@@ -16,7 +16,7 @@ export const Desktop = () => {
         <section className="border border-[#202020] bg-[#101010] col-start-4 col-end-8 row-span-3 rounded-3xl">
           <Project />
         </section>
-        <section className="border border-[#202020] bg-[#101010] col-span-3 rounded-3xl">
+        <section className=" col-span-3 ">
           <Start />
         </section>
         <section className="border border-[#202020] bg-[#101010] rounded-3xl row-start-4 row-end-6 col-span-3">

@@ -1,3 +1,6 @@
+"use client";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+
 import {
   Download,
   Location,
@@ -7,10 +10,17 @@ import {
   WhatsApp,
   Telegram,
 } from "../svg/Icons";
+
 // border-[#7c7c7c]
 export const AboutMy: React.FC = () => {
   const whatsappURL = `https://wa.me/918199369`;
   const telegramURL = `https://t.me/yonatanlla`;
+
+  const [text] = useTypewriter({
+    words: ["Frontend", "Backend"],
+    loop: true,
+    delaySpeed: 2000,
+  });
 
   return (
     <div className="flex flex-col items-center justify-center p-4 gap-1 h-full">
@@ -34,7 +44,11 @@ export const AboutMy: React.FC = () => {
               Yonatan Llanto
             </p>
             <p className="text-[#a2a1a1] text-sm">
-              Soy un <span className="text-green-400">Programador|</span>
+              Soy un desarrollador{" "}
+              <span className="text-green-400">{text}</span>
+              <span className="text-[#a2a1a1] text-sm">
+                <Cursor />
+              </span>
             </p>
           </div>
         </div>
@@ -80,7 +94,7 @@ export const AboutMy: React.FC = () => {
         </div> */}
         <div className="w-full">
           <a href={whatsappURL} target="_blank" rel="noopener noreferrer">
-            <div className="inline-flex w-full gap-2 py-4 hover:animate-background-shine items-center justify-center  border border-color-card  hover:border-[#4c4f55] bg-[#16171a] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400 transition-all duration-500 ">
+            <div className="inline-flex w-full gap-2 py-4 hover:animate-background-shine items-center justify-center  border border-color-card  hover:border-[#4c4f55] bg-[#191919] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400 transition-all duration-500 ">
               <WhatsApp color="#47FA92" />
               <p className="text-center text-[#bdbbbb]">WhatsApp</p>
             </div>{" "}
@@ -88,7 +102,7 @@ export const AboutMy: React.FC = () => {
         </div>
         <div className="w-full">
           <a href={telegramURL} target="_blank" rel="noopener noreferrer">
-            <div className="inline-flex w-full gap-2 py-4 hover:animate-background-shine items-center justify-center  border border-color-card hover:border-[#4c4f55] bg-[#16171a] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400  transition-all duration-500 ">
+            <div className="inline-flex w-full gap-2 py-4 hover:animate-background-shine items-center justify-center  border border-color-card hover:border-[#4c4f55] bg-[#191919] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400  transition-all duration-500 ">
               <Telegram color="#47FA92" />
               <p className="text-center text-[#bdbbbb]">Telegram</p>
             </div>{" "}
