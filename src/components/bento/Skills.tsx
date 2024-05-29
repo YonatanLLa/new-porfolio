@@ -8,6 +8,19 @@ import {
   Html,
   Css,
   Tailwind,
+  Golang,
+  ToGolang,
+  ToNodeJs,
+  NodeJs,
+  NestJs,
+  Express,
+  Prisma,
+  Postgresql,
+  Mysql,
+  MongoDB,
+  Docker,
+  Aws,
+  Sequelize,
 } from "../svg/IncosSkills";
 
 export const Skills = () => {
@@ -94,26 +107,58 @@ export const Skills = () => {
         <div className=" relative flex items-center justify-center w-full h-full">
           <div className=" bg-[#101010] absolute h-[90%] w-[90%] z-10 opacity-95 "></div>
           <div className=" absolute right-2 z-0 bottom-2">
-            <JavaScript color="#a2a1a1" />
+            <Golang color="#a2a1a1" />
           </div>
           <div className=" rounded-lg bg-[#101010] opacity-60  border border-color-border p-1 gap-1 absolute z-10 flex items-center justify-center">
             <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
-              <ToJavaScript color="#d1cdcd" />
+              <ToGolang color="#d1cdcd" />
             </div>
-            <p className="text-md text-[#d1cdcd] font-normal">JavaScript</p>
+            <p className="text-md text-[#d1cdcd] font-normal">Golang</p>
           </div>
         </div>
       </div>
-      <div className="  border-[#202020] bg-[#101010] col-start-2 col-end-4  rounded-2xl"></div>
+      <div className="  border-[#202020] bg-[#101010] col-start-2 col-end-4  rounded-2xl flex gap-2 flex-col w-full p-2">
+        <div className="flex gap-4 justify-center">
+          <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
+            <NestJs color="#838282" />
+          </div>
+          <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
+            <Express color="#838282" />
+          </div>
+          <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
+            <Prisma color="#838282" />
+          </div>
+          <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
+            <Postgresql color="#838282" />
+          </div>
+          <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
+            <Sequelize color="#838282" />
+          </div>
+        </div>
+        <div className="flex gap-4  justify-center">
+          <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
+            <Mysql color="#838282" />
+          </div>
+          <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
+            <MongoDB color="#838282" />
+          </div>
+          <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
+            <Docker color="#838282" />
+          </div>
+          <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
+            <Aws color="#838282" />
+          </div>
+        </div>
+      </div>
       <div className="  border-[#202020] bg-[#101010]  rounded-2xl">
         <div className=" relative flex items-center justify-center w-full h-full">
           <div className=" bg-[#101010] absolute h-[90%] w-[90%] z-10 opacity-95 "></div>
           <div className=" absolute right-2 z-0 bottom-2">
-            <JavaScript color="#a2a1a1" />
+            <NodeJs color="#a2a1a1" />
           </div>
           <div className=" rounded-lg bg-[#101010] opacity-60  border border-color-border p-1 gap-1 absolute z-10 flex items-center justify-center">
             <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
-              <ToJavaScript color="#d1cdcd" />
+              <ToNodeJs color="#d1cdcd" />
             </div>
             <p className="text-md text-[#d1cdcd] font-normal">JavaScript</p>
           </div>
