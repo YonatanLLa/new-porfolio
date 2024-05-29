@@ -19,3 +19,21 @@ body {
 .relative:hover #arrow {
   transform: translateY(0);
 }
+
+@layer utilities {
+  .text-custom-gradient {
+    background: linear-gradient(
+      90deg,
+      rgba(162, 161, 161, 1) 0%,
+      rgba(71, 250, 146, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.tecnolia-text {
+  color: black;
+  text-shadow: -1px -1px 0 #46f790c5, 1px -1px 0 #46f790c5, -1px 1px 0 #46f790c5,
+    1px 1px 0 #46f790c5;
+}
