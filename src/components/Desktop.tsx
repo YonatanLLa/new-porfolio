@@ -19,7 +19,7 @@ export const Desktop = () => {
         <section className=" col-span-3 ">
           <Start />
         </section>
-        <section className="border border-[#202020] bg-[#101010] rounded-3xl row-start-4 row-end-6 col-span-3">
+        <section className=" row-start-4 row-end-6 col-span-3">
           <Skills />
         </section>
         <div className="grid grid-cols-2 gap-4 col-span-4 row-start-4 row-end-6">
