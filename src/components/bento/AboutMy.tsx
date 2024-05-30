@@ -36,7 +36,7 @@ export const AboutMy: React.FC = () => {
           <div className="flex flex-col items-start py-4">
             <div className="bg-color-card  border border-color-border flex items-center justify-center rounded-3xl py-2 px-4 gap-2">
               <div className="w-[8px] h-[8px] rounded-full bg-green-500"></div>{" "}
-              <p className=" text-[#c3bdbd] text-sm ">
+              <p className=" text-[#c3bdbd] lg:text-sm text-xs">
                 Disponible para trabajar
               </p>
             </div>
@@ -44,8 +44,7 @@ export const AboutMy: React.FC = () => {
               Yonatan Llanto
             </p>
             <p className="text-[#a2a1a1] text-sm">
-              Soy un desarrollador{" "}
-              <span className="text-green-400">{text}</span>
+              Desarrollador <span className="text-green-400">{text}</span>
               <span className="text-[#a2a1a1] text-sm">
                 <Cursor />
               </span>
@@ -53,9 +52,11 @@ export const AboutMy: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex items-start py-4">
+        <div className="lg:flex items-start py-4 ">
           <div className="flex items-center">
-            <p className=" pr-2 text-green-300 font-medium">Curriculum</p>
+            <p className=" pr-2 text-green-300 font-medium hidden xl:block">
+              Curriculum
+            </p>
             {/* <div className="bg-[#202225] "> */}
             <a href="/yonatan.pdf" download={"yonatan.pdf"}>
               <div className="relative">
@@ -68,7 +69,7 @@ export const AboutMy: React.FC = () => {
           {/* </div> */}
         </div>
       </section>
-      <section className="lg:flex flex-wrap items-center justify-between w-full bg-color-card-container border border-color-card p-4  my-2 rounded-xl">
+      <section className=" flex md:gap-4 gap-2 flex-wrap items-center 2xl:justify-between w-full bg-color-card-container border border-color-card p-4  my-2 rounded-xl">
         <div className="flex items-center gap-2 bg-color-card border border-color-border rounded-3xl px-3 py-1 text-sm">
           <Location color="#47FA92" />
           <p className="text-[#bdbbbb]">Perú</p>

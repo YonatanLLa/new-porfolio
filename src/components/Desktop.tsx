@@ -9,7 +9,7 @@ import {
 export const Desktop = () => {
   return (
     <main className="flex justify-center">
-      <div className="lg:grid lg:grid-cols-7 lg:grid-rows-5 lg:p-4  gap-4 max-w-[1600px] w-full">
+      <div className="lg:grid lg:grid-cols-7 lg:grid-rows-5 lg:p-4 p-4 gap-4 max-w-[1600px] w-full">
         <section className="border border-[#202020] bg-[#101010] col-span-3 row-span-2 rounded-2xl">
           <AboutMy />
         </section>
