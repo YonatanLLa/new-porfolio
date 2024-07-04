@@ -6,6 +6,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     screens: {
       sm: "640px",
@@ -33,23 +34,10 @@ const config: Config = {
       },
       colors: {
         green: {
-          50: "#E1FEED",
-          100: "#C3FDDC",
-          200: "#83FCB5",
-          300: "#47FA92",
-          400: "#0BF96E",
           500: "#05BE53",
           600: "#049A43",
-          700: "#037231",
-          800: "#024B20",
-          900: "#012811",
-          950: "#011409",
         },
         black: {
-          50: "#E6E6E6",
-          100: "#CCCCCC",
-          200: "#999999",
-          300: "#666666",
           400: "#333333",
         },
         gray: {
@@ -71,11 +59,29 @@ const config: Config = {
         "azul-claro": "#003566",
         amarillo: "#ffc300",
         gris: "#e5e5e5",
+
+        // colores:
+        "bg-general": "#191919",
       },
       animation: {
         "background-shine": "background-shine 1s linear infinite",
+        fadeIn1: "fadeIn 3s ease-in 0s  infinite",
+        fadeIn2: "fadeIn 3s ease-in 3s  infinite",
+        fadeIn3: "fadeIn 3s ease-in 6s  infinite",
+        fadeIn4: "fadeIn 3s ease-in 9s  infinite",
+        fadeIn5: "fadeIn 3s ease-in 12s  infinite",
+        fadeIn6: "fadeIn 3s ease-in 15s  infinite",
+        fadeIn7: "fadeIn 3s ease-in 18s  infinite",
+
+        // magicui
+        marquee: "marquee var(--duration) linear infinite",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
       },
       keyframes: {
+        fadeIn: {
+          "50%, 100%": { opacity: "0" },
+          "0%, 50%": { opacity: "1" },
+        },
         "background-shine": {
           from: {
             backgroundPosition: "0 0",
@@ -85,6 +91,15 @@ const config: Config = {
           },
         },
         wave: {},
+        //magicui
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - var(--gap)))" },
+        },
+        "marquee-vertical": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(calc(-100% - var(--gap)))" },
+        },
       },
     },
   },

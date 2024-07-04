@@ -30,6 +30,37 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .animation-fadeIn1 {
+    @apply animate-fadeIn1;
+  }
+  .animation-fadeIn2 {
+    @apply animate-fadeIn2;
+  }
+  .animation-fadeIn3 {
+    @apply animate-fadeIn3;
+  }
+  .animation-fadeIn4 {
+    @apply animate-fadeIn4;
+  }
+  .animation-fadeIn5 {
+    @apply animate-fadeIn5;
+  }
+  .animation-fadeIn6 {
+    @apply animate-fadeIn6;
+  }
+  .animation-fadeIn7 {
+    @apply animate-fadeIn7;
+  }
+  .bg-border-general {
+    @apply border  border-[#202020] bg-[#101010] rounded-2xl;
+  }
+  .bg-border-especifico {
+    @apply bg-color-card border border-color-border;
+  }
+  .container {
+    @apply flex items-center justify-center;
+  }
 }
 
 .tecnolia-text {

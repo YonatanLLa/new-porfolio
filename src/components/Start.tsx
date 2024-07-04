@@ -1,6 +1,6 @@
 "use client";
 import CountUp from "react-countup";
-import { Estrella, Flag, Startup } from "../svg/Icons";
+import { Estrella, Flag, Startup } from "./svg/Icons";
 
 export const Start = () => {
   return (
@@ -18,7 +18,7 @@ export const Start = () => {
           <div className="bg-color-card  bg-opacity-100 shadow-2xl absolute w-full h-[20px] rounded-full blur-lg"></div>
           <div className="bg-color-card shadow-2xl border border-color-border flex items-center justify-center rounded-2xl py-1 px-4 gap-2  w-full">
             <Flag color="#47FA92" />
-            <p className="text-sm">Proyectos</p>
+            <p className="text-base text-[#c3bdbd]">Proyectos</p>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ export const Start = () => {
 
           <div className="bg-color-card shadow-2xl border border-color-border flex items-center justify-center rounded-2xl py-1 px-4 gap-2  w-full">
             <Startup color="#47FA92" />
-            <p className="text-sm">Startup</p>
+            <p className="text-base text-[#c3bdbd]">Startup</p>
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@ export const Start = () => {
 
           <div className="bg-color-card shadow-2xl border border-color-border flex items-center justify-center rounded-2xl py-1 px-4 gap-2 w-full">
             <Estrella color="#47FA92" />
-            <p className="text-sm">Experiencia</p>
+            <p className="text-base text-[#c3bdbd]">Experiencia</p>
           </div>
         </div>
       </div>

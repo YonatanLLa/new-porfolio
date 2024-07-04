@@ -21,7 +21,8 @@ import {
   Docker,
   Aws,
   Sequelize,
-} from "../svg/IncosSkills";
+  Java,
+} from "./svg/IncosSkills";
 
 export const Skills = () => {
   return (
@@ -147,6 +148,9 @@ export const Skills = () => {
           </div>
           <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
             <Aws color="#838282" />
+          </div>
+          <div className="bg-color-card  rounded-lg w-10 h-10 grid place-items-center">
+            <Java color="#838282" />
           </div>
         </div>
       </div>

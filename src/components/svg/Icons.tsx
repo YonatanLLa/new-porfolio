@@ -4,8 +4,8 @@ export const Download = ({ color = "currentColor" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
     >
       <g fill="none" stroke={color} strokeLinecap="round" strokeWidth="1.5">
@@ -24,21 +24,14 @@ export const Location = ({ color = "currentColor" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="icon icon-tabler icons-tabler-outline icon-tabler-map-pins"
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10.828 9.828a4 4 0 1 0 -5.656 0l2.828 2.829l2.828 -2.829z" />
-      <path d="M8 7l0 .01" />
-      <path d="M18.828 17.828a4 4 0 1 0 -5.656 0l2.828 2.829l2.828 -2.829z" />
-      <path d="M16 15l0 .01" />
+      <path
+        fill={color}
+        d="M10 2a6 6 0 0 0-6 6c0 1.468.843 3.007 1.807 4.306c.98 1.319 2.152 2.48 2.945 3.207a1.835 1.835 0 0 0 2.496 0c.793-.727 1.966-1.888 2.945-3.207C15.157 11.007 16 9.468 16 8a6 6 0 0 0-6-6m2 6a2 2 0 1 1-4 0a2 2 0 0 1 4 0m2.42 5.638a23 23 0 0 1-.715.826q.382.108.712.235c.554.213.969.455 1.236.698S16 15.844 16 16s-.08.36-.347.603s-.682.485-1.236.698c-1.106.426-2.667.7-4.417.7s-3.311-.274-4.417-.7c-.554-.213-.969-.455-1.236-.698S4 16.156 4 16s.08-.36.347-.603s.682-.485 1.236-.698a8 8 0 0 1 .712-.235a22 22 0 0 1-.715-.826a9 9 0 0 0-.356.128c-.621.239-1.159.536-1.55.891C3.284 15.012 3 15.466 3 16c0 .535.284.988.674 1.343s.929.652 1.55.892C6.471 18.715 8.16 19 10 19s3.529-.286 4.776-.765c.621-.24 1.159-.537 1.55-.892c.39-.355.674-.808.674-1.343s-.284-.988-.674-1.343s-.929-.652-1.55-.891a9 9 0 0 0-.356-.128"
+      />
     </svg>
   );
 };
@@ -47,8 +40,8 @@ export const Autodidacta = ({ color = "currentColor" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
@@ -69,19 +62,16 @@ export const Scoold = ({ color = "currentColor" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="icon icon-tabler icons-tabler-outline icon-tabler-school"
+      width="20"
+      height="20"
+      viewBox="0 0 14 14"
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
-      <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
+      <path
+        fill={color}
+        fill-rule="evenodd"
+        d="M7.199.728a.5.5 0 0 0-.398 0l-6.5 2.817a.5.5 0 0 0 0 .917l.893.387v5.591a1.24 1.24 0 1 0 1.003 0V5.283L6.8 7.278a.5.5 0 0 0 .398 0l6.5-2.816a.5.5 0 0 0 0-.917zM2.956 9.353l-.005-2.38l3.353 1.452a1.75 1.75 0 0 0 1.391 0l3.354-1.453v2.38a.5.5 0 0 1-.101.303l-.399-.303l.398.303v.002l-.003.002l-.005.007l-.015.019l-.051.06a3.146 3.146 0 0 1-.186.191a4.355 4.355 0 0 1-.724.553c-.65.398-1.627.784-2.963.784c-1.337 0-2.313-.386-2.96-.785a4.33 4.33 0 0 1-.724-.552a3.118 3.118 0 0 1-.236-.252l-.015-.02l-.005-.006l-.002-.002v-.001c-.001-.001-.001-.001.398-.303l-.4.302a.5.5 0 0 1-.1-.3Z"
+        clip-rule="evenodd"
+      />
     </svg>
   );
 };
@@ -90,21 +80,21 @@ export const Course = ({ color = "currentColor" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
-      fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="icon icon-tabler icons-tabler-outline icon-tabler-certificate-2"
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-      <path d="M10 7h4" />
-      <path d="M10 18v4l2 -1l2 1v-4" />
-      <path d="M10 19h-2a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-2" />
+      <path
+        fill={color}
+        fill-rule="evenodd"
+        d="M2 12V8c0-2.828 0-4.243.879-5.121C3.757 2 5.172 2 8 2h8c2.828 0 4.243 0 5.121.879C22 3.757 22 5.172 22 8v4c0 2.828 0 4.243-.879 5.121c-.476.477-1.11.695-2.04.795a2.94 2.94 0 0 0-.195-.234a11.002 11.002 0 0 0-.406-.414l-1.493-1.472l-.551-.558a4.501 4.501 0 0 0-8.872 0l-.55.558l-1.494 1.472c-.143.141-.29.286-.406.414c-.05.055-.12.134-.194.234c-.931-.1-1.565-.318-2.041-.795C2 16.243 2 14.828 2 12m7-6.75a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5zM6.25 9.5A.75.75 0 0 1 7 8.75h10a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75"
+        clip-rule="evenodd"
+      />
+      <path fill={color} d="M15 16a3 3 0 1 1-6 0a3 3 0 0 1 6 0" />
+      <path
+        fill={color}
+        d="M9.001 15.917L9 16a3 3 0 1 0 .001-.083M7.676 17.25l-1.08 1.065c-.325.32-.487.48-.543.614a.643.643 0 0 0 .26.813c.122.071.342.093.783.138c.248.025.373.037.477.075a.838.838 0 0 1 .5.494c.039.103.052.225.077.47c.045.435.068.652.14.773a.662.662 0 0 0 .824.256c.137-.056.3-.215.623-.535l1.08-1.07a4.509 4.509 0 0 1-3.141-3.094m5.507 3.094l1.08 1.07c.324.32.486.48.623.535c.313.126.66.018.824-.256c.072-.12.095-.338.14-.772c.025-.246.038-.368.077-.47a.839.839 0 0 1 .5-.495c.105-.038.229-.05.477-.075c.44-.045.661-.067.783-.138a.643.643 0 0 0 .26-.812c-.056-.136-.218-.296-.542-.615l-1.08-1.066a4.509 4.509 0 0 1-3.142 3.094"
+      />
     </svg>
   );
 };
