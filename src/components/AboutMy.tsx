@@ -67,7 +67,7 @@ export const AboutMy: React.FC = () => {
           {/* </div> */}
         </div>
       </section>
-      <section className=" flex md:gap-4 gap-2 flex-wrap items-center 2xl:justify-between w-full bg-color-card-container border border-color-card p-4  my-2 rounded-xl">
+      <section className=" flex md:gap-2 flex-wrap items-center 2xl:justify-between w-full bg-color-card-container border border-color-card p-4  my-2 rounded-xl">
         <div className="flex items-center gap-1 bg-color-card border border-color-border rounded-3xl px-3 py-1 text-sm">
           <Location color="#47FA92" />
           <p className="text-[#c3bdbd] text-base">Perú</p>
