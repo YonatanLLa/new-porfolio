@@ -8,20 +8,20 @@ import { Experiencia } from "./Experiencia";
 const page = () => {
   return (
     <div className="flex justify-center ">
-      <div className="grid grid-cols-4 grid-rows-3  max-w-[1600px] h-screen lg:p-4 gap-4">
-        <div className="border border-red-500 ">
+      <div className="grid grid-cols-4 grid-rows-3  max-w-[1600px]  max-h-[800px] h-full lg:p-4 gap-4 w-full">
+        <div className="bg-border-general  ">
           <CantidadProject />
         </div>
-        <div className="border border-yellow-500">
+        <div className=" bg-border-general row-start-2">
           <About />
         </div>
-        <div className="border border-blue-500">
+        <div className=" bg-border-general row-span-2 col-span-2">
           <Projects />
         </div>
-        <div className="border border-green-500">
+        <div className=" bg-border-general row-span-2 col-start-4 col-end-6">
           <Certificados />
         </div>
-        <div className="border border-purple-500">
+        <div className=" row-start-3 col-span-5">
           <Experiencia />
         </div>
       </div>
