@@ -144,8 +144,8 @@ export const Flag = ({ color = "currentColor" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
     >
       <path fill={color} d="M5 21V4h9l.4 2H20v10h-7l-.4-2H7v7z" />
@@ -157,8 +157,8 @@ export const Startup = ({ color = "currentColor" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 14 14"
     >
       <path
@@ -175,8 +175,8 @@ export const Estrella = ({ color = "currentColor" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
     >
       <path

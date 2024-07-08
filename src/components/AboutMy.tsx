@@ -23,10 +23,10 @@ export const AboutMy: React.FC = () => {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center lg:p-4 md:p-2 md:gap-2 lg:gap-1 h-full">
-      <section className="rounded-xl  flex justify-between w-full">
+    <div className="flex flex-col items-center justify-center p-4  gap-1 h-full">
+      <section className="rounded-xl  flex md:justify-between w-full">
         <div className="flex items-center gap-4">
-          <div className="border-[1px] border-color-border shadow-sm  rounded-xl relative lg:w-[135px] lg:h-[135px] md:w-[115px] md:h-[115px]">
+          <div className="border-[1px] border-color-border shadow-sm  rounded-xl relative w-[135px] h-[135px] ">
             <div
               className="absolute inset-0 bg-cover bg-no-repeat bg-center mix-blend-lighten opacity-80 rounded-xl"
               style={{ backgroundImage: "url('/profile.png')" }}
@@ -36,14 +36,14 @@ export const AboutMy: React.FC = () => {
           <div className="flex flex-col items-start py-4">
             <div className="bg-color-card  border border-color-border flex items-center justify-center rounded-3xl py-2 px-4 gap-2">
               <div className="w-[8px] h-[8px] rounded-full bg-green-500"></div>{" "}
-              <p className=" text-[#c3bdbd] md:text-sm">
-                Disponible para trabajar
+              <p className=" text-[#c3bdbd] text-xs md:text-sm ">
+                Listo para trabajar
               </p>
             </div>
-            <p className="text-3xl font-bold py-2 text-[#8c8b8b] p">
+            <p className="md:text-3xl text-2xl font-bold py-2 text-[#8c8b8b] ">
               Yonatan Llanto
             </p>
-            <p className="text-[#717071] ">
+            <p className="text-[#717071] text-xs md:text-sm ">
               Desarrollador <span className="text-green-400">{text}</span>
               <span className="text-[#a2a1a1] ">
                 <Cursor />
@@ -52,7 +52,7 @@ export const AboutMy: React.FC = () => {
           </div>
         </div>
 
-        <div className="lg:flex items-start py-4 ">
+        <div className="lg:flex md:block hidden items-start py-4 ">
           <div className="flex items-center">
             <p className=" pr-2 text-green-300 text-base font-medium  xl:block">
               Curriculum
@@ -69,7 +69,7 @@ export const AboutMy: React.FC = () => {
           {/* </div> */}
         </div>
       </section>
-      <section className=" flex md:gap-2 flex-wrap items-center 2xl:justify-between w-full bg-color-card-container border border-color-card p-4  my-2 rounded-xl">
+      <section className=" flex gap-2 flex-wrap items-center 2xl:justify-between w-full bg-border-especifico border border-color-card md:p-4 p-2  my-2 rounded-xl">
         <div className="flex items-center gap-1 bg-color-card border border-color-border rounded-3xl px-3 py-1 text-sm">
           <Location color="#47FA92" />
           <p className="text-[#c3bdbd] text-base">Perú</p>
@@ -95,7 +95,7 @@ export const AboutMy: React.FC = () => {
         </div> */}
         <div className="w-full">
           <a href={whatsappURL} target="_blank" rel="noopener noreferrer">
-            <div className="inline-flex w-full gap-2 py-4 hover:animate-background-shine items-center justify-center  border border-color-card  hover:border-[#4c4f55] bg-[#191919] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400 transition-all duration-500 ">
+            <div className="inline-flex w-full gap-2 md:py-4 py-3 hover:animate-background-shine items-center justify-center  border border-color-card  hover:border-[#4c4f55] bg-[#191919] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400 transition-all duration-500 ">
               <WhatsApp color="#47FA92" />
               <p className="text-center text-[#bdbbbb] text-base">WhatsApp</p>
             </div>{" "}
@@ -103,7 +103,7 @@ export const AboutMy: React.FC = () => {
         </div>
         <div className="w-full">
           <a href={telegramURL} target="_blank" rel="noopener noreferrer">
-            <div className="inline-flex w-full gap-2 py-4 hover:animate-background-shine items-center justify-center  border border-color-card hover:border-[#4c4f55] bg-[#191919] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400  transition-all duration-500 ">
+            <div className="inline-flex w-full gap-2 md:py-4 py-3 hover:animate-background-shine items-center justify-center  border border-color-card hover:border-[#4c4f55] bg-[#191919] hover:bg-[linear-gradient(110deg,#16171a,45%,#33363b,90%,#16171a)] hover:bg-[length:200%_100%] rounded-xl text-gray-400  transition-all duration-500 ">
               <Telegram color="#47FA92" />
               <p className="text-center text-[#bdbbbb] text-base">Telegram</p>
             </div>{" "}

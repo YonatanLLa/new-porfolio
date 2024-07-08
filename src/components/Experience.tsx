@@ -3,7 +3,7 @@ import { Experiencia } from "./svg/title-icons";
 
 export const Experience = () => {
   return (
-    <div className="flex flex-col items-center justify-center  text-white">
+    <div className="flex flex-col items-center md:py-1 justify-center  text-white">
       <div className="flex flex-col items-center justify-center py-2">
         <div className="flex items-center justify-center gap-1">
           <Experiencia color="#47FA92" />

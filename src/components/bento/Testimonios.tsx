@@ -97,7 +97,7 @@ const Notification = ({ name, description, icon, color }: Item) => {
 
 export function AnimatedListDemo() {
   return (
-    <div className="relative flex max-h-[328px] min-h-[328px] w-full max-w-[32rem] flex-col overflow-hidden rounded-2xl   bg-background px-2 shadow-lg">
+    <div className="relative flex max-h-[336px] min-h-[336px] w-full max-w-[32rem] flex-col overflow-hidden rounded-2xl   bg-background px-2 shadow-lg">
       <AnimatedList>
         {notifications.map((item, idx: number) => (
           <Notification {...item} key={idx} />

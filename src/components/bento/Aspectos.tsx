@@ -9,7 +9,7 @@ import {
 
 export const Aspectos = () => {
   return (
-    <div className="flex gap-2 flex-col items-center justify-center">
+    <div className="flex gap-2 flex-col items-center py-1 justify-center">
       <div className=" py-1 text-center">
         <div className="flex items-center justify-center gap-1">
           <Proceso color="#47FA92" />
@@ -24,7 +24,7 @@ export const Aspectos = () => {
       </div>
       <div className=" w-full h-[1px] bg-[#202020] "></div>
       <div></div>
-      <div className="grid grid-cols-2  gap-2  w-full h-full px-4 ">
+      <div className="grid md:grid-cols-2  gap-2  w-full h-full px-4 ">
         <div className="bg-border-especifico rounded-lg text-sm p-[.4rem] flex items-center gap-2">
           <div className="flex items-center justify-center p-2 rounded-lg bg-[#202020]">
             <Disenio color="#717071" />
