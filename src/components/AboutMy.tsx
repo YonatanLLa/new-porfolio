@@ -23,10 +23,10 @@ export const AboutMy: React.FC = () => {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 gap-1 h-full">
+    <div className="flex flex-col items-center justify-center lg:p-4 md:p-2 md:gap-2 lg:gap-1 h-full">
       <section className="rounded-xl  flex justify-between w-full">
         <div className="flex items-center gap-4">
-          <div className="border-[1px] border-[#606060] shadow-sm shadow-[#606060] rounded-xl relative w-[135px] h-[135px]">
+          <div className="border-[1px] border-color-border shadow-sm  rounded-xl relative lg:w-[135px] lg:h-[135px] md:w-[115px] md:h-[115px]">
             <div
               className="absolute inset-0 bg-cover bg-no-repeat bg-center mix-blend-lighten opacity-80 rounded-xl"
               style={{ backgroundImage: "url('/profile.png')" }}
@@ -36,7 +36,9 @@ export const AboutMy: React.FC = () => {
           <div className="flex flex-col items-start py-4">
             <div className="bg-color-card  border border-color-border flex items-center justify-center rounded-3xl py-2 px-4 gap-2">
               <div className="w-[8px] h-[8px] rounded-full bg-green-500"></div>{" "}
-              <p className=" text-[#c3bdbd] ">Disponible para trabajar</p>
+              <p className=" text-[#c3bdbd] md:text-sm">
+                Disponible para trabajar
+              </p>
             </div>
             <p className="text-3xl font-bold py-2 text-[#8c8b8b] p">
               Yonatan Llanto
@@ -52,7 +54,7 @@ export const AboutMy: React.FC = () => {
 
         <div className="lg:flex items-start py-4 ">
           <div className="flex items-center">
-            <p className=" pr-2 text-green-300 text-base font-medium hidden xl:block">
+            <p className=" pr-2 text-green-300 text-base font-medium  xl:block">
               Curriculum
             </p>
             {/* <div className="bg-[#202225] "> */}

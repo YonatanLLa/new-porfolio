@@ -7,13 +7,15 @@ import { Github, Instagram, Linkedin } from "./svg/red-social";
 import { Elegirme } from "./svg/title-icons";
 export const Project = () => {
   return (
-    <div className="grid grid-cols-8 grid-rows-5 gap-4 w-full h-full">
-      <div className=" col-span-5 row-span-3 bg-border-general">
+    <div className="grid md:grid-cols-1 lg:grid-cols-8 lg:grid-rows-5 gap-4 w-full h-full">
+      {/* carrusel de proyectos */}
+      <div className=" lg:col-span-5 lg:row-span-3 bg-border-general">
         {/* <p className="text-3xl font-bold">carrusel de proyectos</p>
          */}
         <MarqueeDemo />
       </div>
-      <div className=" col-span-3 col-end-9 row-span-1 ">
+      {/* Red social */}
+      <div className=" lg:col-span-3 lg:col-end-9 lg:row-span-1 ">
         <div className="flex items-center h-full gap-4 w-full justify-evenly">
           <div className="bg-border-especifico w-full h-full rounded-2xl flex flex-col gap-1 items-center justify-center">
             <Github color="#47FA92" />
@@ -29,7 +31,8 @@ export const Project = () => {
           </div>
         </div>
       </div>
-      <div className=" col-span-3 col-end-9 row-span-6 bg-border-general  w-full h-full">
+      {/* Services */}
+      <div className=" lg:col-span-3 lg:col-end-9 lg:row-span-6 bg-border-general  w-full h-full">
         {/* <Services /> */}
         <div className="flex flex-col items-center justify-center py-2">
           <div className="flex items-center justify-center gap-1">
@@ -45,16 +48,11 @@ export const Project = () => {
 
         <AnimatedListDemo />
       </div>
-      <div className="col-span-5 row-span-4 bg-border-general">
+      {/* Proceso de trabajo */}
+      <div className="lg:col-span-5 lg:row-span-4 bg-border-general">
         <Aspectos />
         {/* <p className="text-3xl font-bold">Project relevante 2</p> */}
       </div>
-      {/* <div className="col-start-4 col-end-6 row-span-4  bg-color-card    rounded-xl place-items-center ">
-        <StyleGithub />
-      </div> */}
-      {/* <div className="col-start-4 col-end-9 row-span-2 border border-purple-400">
-        <p className="text-3xl font-bold">Frasee</p>
-      </div> */}
     </div>
   );
 };
