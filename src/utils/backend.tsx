@@ -1,6 +1,5 @@
 import { Skill } from "@/interface/skills";
 import { Node, SpringBoot, Net, Express } from "@/components/svg/IncosSkills";
-import { Skills } from "@/components/skill/Icons";
 export const backend: Skill[] = [
   {
     name: "Node js",

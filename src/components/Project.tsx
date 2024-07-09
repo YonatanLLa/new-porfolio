@@ -1,5 +1,4 @@
 import StyleGithub from "./bento/StyleGithub";
-import Services from "./bento/Services";
 import { AnimatedListDemo } from "./bento/Testimonios";
 import { Aspectos } from "./bento/Aspectos";
 import MarqueeDemo from "./bento/Project";

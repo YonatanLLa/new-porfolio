@@ -61,6 +61,9 @@ body {
   .container {
     @apply flex items-center justify-center;
   }
+  .clip-half {
+    clip-path: inset(87.11% 0 0 0);
+  }
 }
 
 .tecnolia-text {

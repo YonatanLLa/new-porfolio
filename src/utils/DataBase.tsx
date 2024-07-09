@@ -1,16 +1,10 @@
 import { Skill } from "@/interface/skills";
 import {
-  Node,
-  SpringBoot,
-  Net,
-  Express,
   Postgresql,
-  Mysql,
   MongoDB,
   MysqlRes,
   SQLite,
 } from "@/components/svg/IncosSkills";
-import { Skills } from "@/components/skill/Icons";
 export const Database: Skill[] = [
   {
     name: "PostgreSQL",

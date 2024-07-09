@@ -14,7 +14,7 @@ export const Experiencia = () => {
       <div className=" bg-border-general  gap-4 px-2 py-2 col-span-2 flex  justify-center items-center">
         <div className="">
           <div className=" bg-[#202020] rounded-full w-16 h-16 flex items-center justify-center">
-            <Tecnologia />
+            <Tecnologia color="#47FA92" />
           </div>
         </div>
         <div className=" flex flex-col  justify-start">
@@ -30,7 +30,7 @@ export const Experiencia = () => {
       <div className=" bg-border-general col-span-2 flex gap-4 px-2  justify-center items-center">
         <div className="">
           <div className=" bg-[#202020] rounded-full w-16 h-16 flex items-center justify-center">
-            <Frameworks />
+            <Frameworks color="#47FA92" />
           </div>
         </div>
         <div className=" flex flex-col  justify-start">
@@ -46,7 +46,7 @@ export const Experiencia = () => {
       <div className=" bg-border-general col-span-2 flex gap-4 px-2  justify-center items-center">
         <div className="">
           <div className=" bg-[#202020] rounded-full w-16 h-16 flex items-center justify-center">
-            <Database />
+            <Database color="#47FA92" />
           </div>
         </div>
         <div className=" flex flex-col  justify-start">
@@ -62,7 +62,7 @@ export const Experiencia = () => {
       <div className=" bg-border-general col-span-2 flex gap-4 px-2  justify-center items-center">
         <div className="">
           <div className=" bg-[#202020] rounded-full w-16 h-16 flex items-center justify-center">
-            <VersionControl />
+            <VersionControl color="#47FA92" />
           </div>
         </div>
         <div className=" flex flex-col  justify-start">
@@ -78,7 +78,7 @@ export const Experiencia = () => {
       <div className=" bg-border-general col-span-2 flex gap-4 px-2  justify-center items-center">
         <div className="">
           <div className=" bg-[#202020] rounded-full w-16 h-16 flex items-center justify-center">
-            <Responsive />
+            <Responsive color="#47FA92" />
           </div>
         </div>
         <div className=" flex flex-col  justify-start">
@@ -94,7 +94,7 @@ export const Experiencia = () => {
       <div className=" bg-border-general col-span-2 flex gap-4 px-2  justify-center items-center">
         <div className="">
           <div className=" bg-[#202020] rounded-full w-16 h-16 flex items-center justify-center">
-            <Seo />
+            <Seo color="#47FA92" />
           </div>
         </div>
         <div className=" flex flex-col  justify-start">

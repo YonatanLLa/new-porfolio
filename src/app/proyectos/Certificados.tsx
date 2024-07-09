@@ -7,7 +7,7 @@ export const Certificados = () => {
     <div className="grid w-full">
       <div className=" py-1 text-center p-4 w-full">
         <div className="flex items-center justify-center gap-1">
-          <Certificado />
+          <Certificado color="#47FA92" />
           <p className=" text-[#717071]">Certificado</p>
         </div>
         <p

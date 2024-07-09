@@ -9,7 +9,7 @@ export const Experience = () => {
           <Experiencia color="#47FA92" />
           <h3 className="text-[#717071]">Experiencia</h3>
         </div>
-        <p className="text-[#c3bdbd] font-semibold text-lg">
+        <p className="text-[#c3bdbd] font-semibold text-lg text-center">
           Más de 1 año de experiencia desde 2022
         </p>
       </div>

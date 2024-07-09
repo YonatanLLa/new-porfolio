@@ -15,7 +15,7 @@ const page = () => {
         <div className=" bg-border-general row-start-2">
           <About />
         </div>
-        <div className=" bg-border-general row-span-2 col-span-2">
+        <div className=" row-span-2 col-span-2">
           <Projects />
         </div>
         <div className=" bg-border-general row-span-2 col-start-4 col-end-6">

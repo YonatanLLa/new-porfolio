@@ -4,9 +4,9 @@ import { Download, Estrella, Flag, Startup } from "./svg/Icons";
 
 export const Start = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 w-full h-full gap-4">
+    <div className="grid grid-cols-2 md:grid-cols-3 w-full h-full gap-4 ">
       <div className="relative w-full h-full rounded-2xl  border bg-[#101010] border-[#202020] p-[0.3rem]">
-        <div className="flex flex-col items-center justify-center relative gap-2 border border-[#202020]   rounded-2xl lg:px-4 px-2 md:py-2 lg:py-2  w-full h-full  ">
+        <div className="flex flex-col items-center justify-center relative gap-2 border border-[#202020]   rounded-2xl lg:px-4 px-2 md:py-2 py-2  w-full h-full  ">
           <div className="flex items-center justify-center   gap-1">
             <CountUp
               className="text-7xl font-semibold text-[#8c8b8b] "
@@ -24,7 +24,7 @@ export const Start = () => {
       </div>
 
       <div className="relative w-full h-full rounded-2xl  border bg-[#101010] border-[#202020] p-[0.3rem]">
-        <div className="flex flex-col items-center justify-center relative gap-2 border border-[#202020]   rounded-2xl lg:px-4 px-2 md:py-2 lg:py-2  w-full h-full  ">
+        <div className="flex flex-col items-center justify-center relative gap-2 border border-[#202020]   rounded-2xl lg:px-4 px-2 md:py-2 py-2  w-full h-full  ">
           <div className="flex items-center justify-center  gap-1">
             <CountUp
               className="text-7xl font-semibold  text-[#8c8b8b] "
@@ -43,7 +43,7 @@ export const Start = () => {
       </div>
 
       <div className="relative w-full h-full rounded-2xl  border bg-[#101010] border-[#202020] p-[0.3rem]">
-        <div className="flex flex-col items-center justify-center relative gap-2 border border-[#202020]   rounded-2xl lg:px-4 px-2 md:py-2 lg:py-2  w-full h-full  ">
+        <div className="flex flex-col items-center justify-center relative gap-2 border border-[#202020]   rounded-2xl lg:px-4 px-2 md:py-2 py-2  w-full h-full  ">
           <div className="flex items-center justify-center  gap-1">
             <CountUp
               className="text-7xl font-semibold   text-[#8c8b8b]"

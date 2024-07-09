@@ -2,14 +2,11 @@ import { Skill } from "@/interface/skills";
 import {
   JavaScriptRes,
   TypeScriptRes,
-  Node,
-  TypeScript,
   GolangRes,
   Java,
   CSharp,
   Python,
 } from "@/components/svg/IncosSkills";
-import { Skills } from "@/components/skill/Icons";
 export const tecnologiaData: Skill[] = [
   {
     name: "JavaScript",

@@ -1,5 +1,3 @@
-import React from "react";
-
 export const CantidadProject = () => {
-  return <div className="relative w-full h-full"></div>;
+  return <div className="flex items-center justify-center w-full h-full"></div>;
 };

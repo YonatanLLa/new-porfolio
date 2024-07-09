@@ -1,9 +1,5 @@
 import { Skill } from "@/interface/skills";
 import {
-  Node,
-  SpringBoot,
-  Net,
-  Express,
   ReactJs,
   NextJs,
   Tailwind,
