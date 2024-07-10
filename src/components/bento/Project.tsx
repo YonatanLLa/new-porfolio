@@ -70,9 +70,9 @@ const MarqueeDemo = () => {
       <div className="absolute w-full h-full bg-[#151515] opacity-10 dark:from-background z-10"></div>
       <Link
         href="/proyectos"
-        className="absolute bottom-10 z-50 bg-green-400 w-40 h-12 rounded-xl border-4 border-black-400  text-color-border grid place-items-center hover:bg-green-500 transition-colors duration-300"
+        className="absolute bottom-10 z-50 bg-green-400 w-40 h-12 rounded-xl border-4 border-black-400  text-color-border grid place-items-center hover:bg-green-700 transition-colors duration-300"
       >
-        <p className="text-base font-medium">Ver trabajos</p>
+        <p className=" font-medium">Ver trabajos</p>
       </Link>
     </div>
   );

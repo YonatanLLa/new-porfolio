@@ -16,18 +16,36 @@ export const Project = () => {
       {/* Red social */}
       <div className=" lg:col-span-3 lg:col-end-9 lg:row-span-1 ">
         <div className="flex items-center h-full gap-4 w-full justify-evenly">
-          <div className="bg-border-especifico w-full h-full rounded-2xl flex flex-col py-4 lg:py-0 gap-1 items-center justify-center">
-            <Github color="#47FA92" />
-            <p className="text-[#c3bdbd] text-base">Github</p>
-          </div>
-          <div className="bg-border-especifico w-full h-full rounded-2xl flex flex-col py-4 lg:py-0 gap-1 items-center justify-center">
-            <Linkedin color="#47FA92" />
-            <p className="text-[#c3bdbd] text-base">Linkedin</p>
-          </div>
-          <div className="bg-border-especifico w-full h-full rounded-2xl flex flex-col py-4 lg:py-0 gap-1 items-center justify-center">
-            <Instagram color="#47FA92" />
-            <p className="text-[#c3bdbd] text-base">Instagram</p>
-          </div>
+          <a
+            href="https://github.com/YonatanLLa"
+            target="_blank"
+            className="w-full h-full "
+          >
+            <div className="bg-border-especifico w-full h-full rounded-2xl flex flex-col py-4 lg:py-0 gap-1 items-center justify-center hover:bg-[#1f1e1e] hover:border  hover:border-[#3c3c3c] hover:shadow-lg transition-all duration-500 ease-in-out">
+              <Github color="#47FA92" />
+              <p className="text-[#c3bdbd] text-base">Github</p>
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/yonatanllanto/"
+            target="_blank"
+            className="w-full h-full "
+          >
+            <div className="bg-border-especifico w-full h-full rounded-2xl flex flex-col py-4 lg:py-0 gap-1 items-center justify-center hover:bg-[#1f1e1e] hover:border  hover:border-[#3c3c3c] hover:shadow-lg transition-all duration-500 ease-in-out">
+              <Linkedin color="#47FA92" />
+              <p className="text-[#c3bdbd] text-base">Linkedin</p>
+            </div>
+          </a>
+          <a
+            href="https://www.instagram.com/frontendyona/"
+            target="_blank"
+            className="w-full h-full "
+          >
+            <div className="bg-border-especifico w-full h-full rounded-2xl flex flex-col py-4 lg:py-0 gap-1 items-center justify-center hover:bg-[#1f1e1e] hover:border  hover:border-[#3c3c3c] hover:shadow-lg transition-all duration-500 ease-in-out">
+              <Instagram color="#47FA92" />
+              <p className="text-[#c3bdbd] text-base">Instagram</p>
+            </div>
+          </a>
         </div>
       </div>
       {/* Services */}
