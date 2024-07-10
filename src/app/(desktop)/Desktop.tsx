@@ -13,7 +13,7 @@ import { FrontEnd } from "@/components/skill/FrontEnd";
 export const Desktop = () => {
   return (
     <main className="flex justify-center">
-      <div className="flex flex-col md:grid md:grid-cols-10  md:grid-rows-13 lg:grid-cols-7 lg:grid-rows-5  p-4 gap-4 max-w-[439px]  md:max-w-[929px] lg:max-w-[1900px] w-full">
+      <div className="flex flex-col md:grid md:grid-cols-10  md:grid-rows-13 lg:grid-cols-7 lg:grid-rows-5  p-4 gap-4 max-w-[439px]  md:max-w-[929px] lg:max-w-[1666px] w-full">
         <section className="border border-[#202020] bg-[#101010] md:col-span-6 md:row-start-1 md:row-end-3 lg:col-span-3 lg:row-span-2 rounded-2xl ">
           <AboutMy />
         </section>

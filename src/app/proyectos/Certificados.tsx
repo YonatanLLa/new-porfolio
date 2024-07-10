@@ -4,8 +4,8 @@ import { Certificado } from "./svg/Icons";
 
 export const Certificados = () => {
   return (
-    <div className="grid w-full">
-      <div className=" py-1 text-center p-4 w-full">
+    <div className="w-full h-full">
+      <div className=" py-1 md:py-2 text-center flex flex-col items-center justify-center p-4 w-full">
         <div className="flex items-center justify-center gap-1">
           <Certificado color="#47FA92" />
           <p className=" text-[#717071]">Certificado</p>
@@ -14,13 +14,13 @@ export const Certificados = () => {
           className="text-[#c3bdbd] font-semibold
           text-lg "
         >
-          ltimas Certificaciones Profesionales en Desarrollo Web
+          Últimas Certificaciones Profesionales en Desarrollo Web
         </p>
       </div>
-      <div className=" w-full h-[1px] bg-[#202020] mb-[1rem]"></div>
+      <div className=" w-full h-[1px] bg-[#202020] "></div>
 
-      <div className="flex flex-col px-2 gap-3 items-center justify-center h-full">
-        <div className="flex items-center justify-between p-2 gap-4 bg-border-especifico rounded-xl">
+      <div className="flex flex-col justify-center md:grid md:grid-cols-2 lg:grid-cols-none lg:flex lg:justify-evenly lg:py-4 lg:items-center md:py-5  py-4  px-4 md:px-4 lg:px-4 gap-4 lg:gap-4 items-center lg:h-[80%]">
+        <div className="flex items-center justify-between p-2 gap-4 bg-border-especifico rounded-xl w-full">
           <p className=" text-[#9f9d9d] ">
             Curso de fundamentos de arquitectura de software
           </p>
@@ -32,7 +32,7 @@ export const Certificados = () => {
             </div>
           </a>
         </div>
-        <div className="flex items-center justify-between p-2 gap-4 bg-border-especifico rounded-xl">
+        <div className="flex items-center justify-between p-2 gap-4 bg-border-especifico rounded-xl w-full">
           <p className=" text-[#9f9d9d] ">
             Patrones en Base de Datos - Bootcamp de Backend Avanzado
           </p>
@@ -44,7 +44,7 @@ export const Certificados = () => {
             </div>
           </a>
         </div>
-        <div className="flex items-center justify-between p-2 gap-4 bg-border-especifico rounded-xl">
+        <div className="flex items-center justify-between p-2 gap-4 bg-border-especifico rounded-xl w-full">
           <p className=" text-[#9f9d9d] ">
             Modelado de microservicios - Bootcamp de Backend Avanzado
           </p>
@@ -56,7 +56,7 @@ export const Certificados = () => {
             </div>
           </a>
         </div>
-        <div className="flex items-center justify-between p-2 gap-4 bg-border-especifico rounded-xl">
+        <div className="flex items-center justify-between p-2 gap-4 bg-border-especifico rounded-xl w-full">
           <p className=" text-[#9f9d9d] ">
             Curso de fundamentos de arquitectura de software
           </p>

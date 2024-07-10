@@ -2,8 +2,8 @@ export const Tecnologia = ({ color }: { color?: string }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 256 256"
     >
       <path
@@ -18,7 +18,7 @@ export const Database = ({ color }: { color?: string }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
+      width="20"
       height="24"
       viewBox="0 0 16 16"
     >
@@ -33,8 +33,8 @@ export const Responsive = ({ color }: { color?: string }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
     >
       <path
@@ -49,8 +49,8 @@ export const Frameworks = ({ color }: { color?: string }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 56 56"
     >
       <path
@@ -65,8 +65,8 @@ export const VersionControl = ({ color }: { color?: string }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
     >
       <path
@@ -81,8 +81,8 @@ export const Seo = ({ color }: { color: string }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
     >
       <path
@@ -113,8 +113,8 @@ export const Download = ({ color = "currentColor" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
     >
       <g fill="none" stroke={color} strokeLinecap="round" strokeWidth="1.5">
