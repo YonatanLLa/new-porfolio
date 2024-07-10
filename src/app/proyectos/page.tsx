@@ -13,7 +13,7 @@ const page = () => {
         <div className=" md:col-span-4 lg:row-span-2 lg:col-span-2 block lg:hidden">
           <Projects />
         </div>
-        <div className="bg-border-general  md:col-span-2 lg:col-span-1">
+        <div className="bg-border-general  md:col-span-2 lg:col-span-1 hover:bg-[#1f1e1e] hover:border  hover:border-[#3c3c3c] hover:shadow-sm hover:transition-all hover:duration-500 hover:ease-in-out  ">
           <CantidadProject />
         </div>
         <div className="  md:col-span-2 lg:col-span-1 bg-border-general lg:row-start-2">

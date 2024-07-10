@@ -29,7 +29,7 @@ const reviews = [
   },
 ];
 
-const firstRow = reviews.slice(0, reviews.length / 2);
+// const firstRow = reviews.slice(0, reviews.length / 2);
 
 const ReviewCard = ({ img, title }: { img: string; title: string }) => {
   return (
@@ -64,8 +64,8 @@ const ReviewCard = ({ img, title }: { img: string; title: string }) => {
 const MarqueeDemo = () => {
   return (
     <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-2xl  bg-background  md:shadow-xl">
-      <Marquee className="[--duration:5s]">
-        {firstRow.map((review, index) => (
+      <Marquee className="[--duration:20s]">
+        {reviews.map((review, index) => (
           <ReviewCard key={index} {...review} />
         ))}
       </Marquee>
