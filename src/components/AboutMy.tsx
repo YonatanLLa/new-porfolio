@@ -58,7 +58,7 @@ export const AboutMy: React.FC = () => {
               Curriculum
             </p>
             {/* <div className="bg-[#202225] "> */}
-            <a href="/yonatan.pdf" download={"yonatan.pdf"}>
+            <a href="/Yonatan_Llanto.pdf" download={"Yonatan_Llanto.pdf"}>
               <div className="relative">
                 <div className="bg-color-card border border-color-border hover:border-[#4c4f55] transition-all duration-500 hover:bg-color-border rounded-xl p-2">
                   <Download color="#a2a1a1" />

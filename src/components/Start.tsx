@@ -61,7 +61,7 @@ export const Start = () => {
         </div>
       </div>
       <div className="flex items-center justify-center bg-color-card border border-color-border hover:border-[#4c4f55] transition-all duration-500 hover:bg-color-border rounded-xl p-2  md:hidden ">
-        <a href="/yonatan.pdf" download={"yonatan.pdf"}>
+        <a href="/Yonatan_Llanto.pdf" download={"Yonatan_Llanto.pdf"}>
           <div className="relative flex items-center justify-center  w-full h-full">
             <p className=" pr-2 text-green-300 text-base font-medium  xl:block">
               Curriculum

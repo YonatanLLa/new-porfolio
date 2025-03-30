@@ -31,7 +31,9 @@ export const Projects = () => {
                   <Github color="#a2a1a1" />
                 </div>
                 <div className="bg-color-card border border-color-border hover:border-[#4c4f55] transition-all duration-500 hover:bg-color-border rounded-xl p-2 cursor-pointer">
-                  <Links color="#a2a1a1" />
+                  <a href={item.url} target="_black">
+                    <Links color="#a2a1a1" />
+                  </a>
                 </div>
               </div>
               <p className="text-[#c3bdbd] font-semibold text-lg">
